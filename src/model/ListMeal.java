@@ -65,6 +65,6 @@ public class ListMeal {
 	}
 
 	public String returnMealDetails( ) {
-		return "Meal: " + main + ", " + vegetable + "," + fruit;
+		return "Meal: " + main + ", " + vegetable + ", " + fruit;
 		}
 }

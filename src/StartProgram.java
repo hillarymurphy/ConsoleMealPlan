@@ -39,8 +39,9 @@ public class StartProgram {
 		private static void editAMeal() {
 			// TODO Auto-generated method stub
 			System.out.println("How would you like to search? ");
-			System.out.println("1 : Search by Store");
-			System.out.println("2 : Search by Item");
+			System.out.println("1 : Search by Main Course");
+			System.out.println("2 : Search by Vegetable");
+			System.out.println("3 : Search by Fruit");
 			int searchBy = in.nextInt();
 			in.nextLine();
 			List<ListMeal> foundMeals;
